@@ -362,16 +362,16 @@ body {
   justify-content: center;
 }
 
-.portfolio-images-list-item {
-  margin-right: 30px;
-}
 /* .portfolio-images-list-item:not(:nth-child(3n + 1)) {
   margin-left: 30px;
 } */
 
 .portfolio-images-list-item {
   margin-bottom: 30px;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  outline: 1px solid #eeeeee;
+}
+
+.portfolio-images-list-item:nth-child(3n + 2) {
+  margin-right: 30px;
+  margin-left: 30px;
 }
